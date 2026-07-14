@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+*.env
+docker/.env
+
+# Test files
+test_*.py
+*_test.py
+
+# Generated output
+output/
+
+# VS Code
+.vscode/

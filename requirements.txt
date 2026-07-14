@@ -1,0 +1,8 @@
+requests
+python-dotenv
+beautifulsoup4
+lxml
+openai>=1.35.0
+azure-search-documents>=11.6.0
+
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drupal Enterprise AI Agent</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h1>🤖 AI Agent</h1>
+        <p>Powered by Drupal CMS • Azure AI Search • GPT-5</p>
+      </header>
+
+      <!-- Chat Area -->
+      <div id="chat-box" class="chat-box">
+        <div class="message ai">
+          <div class="bubble">
+            👋 Hello! I'm your Enterprise AI Assistant.<br /><br />
+            Ask me anything about your Drupal knowledge base.
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="input-area">
+        <input
+          type="text"
+          id="question"
+          placeholder="Ask a question..."
+          autocomplete="off"
+        />
+
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
