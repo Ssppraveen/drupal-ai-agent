@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Drupal AI Chat module.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function drupal_ai_chat_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'drupal_ai_chat/chat';
+}
